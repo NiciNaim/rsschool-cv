@@ -4,16 +4,20 @@
 
 body {
     margin: 0;
-    font-family: Roboto;
-     src: url("assets/fonts/Roboto.ttf");
-   }
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif
+     }
+
 .header {
-    color: blueviolet;
+    color: rgb(65, 22, 94);
     font-size: 16px;
 }
 .image {
-   width: 240px;
-   height: 240px; 
+   width: 200px;
+  height: 250px;
+   border-radius: 90px;
 }
 .number{
   display: flex;
@@ -28,3 +32,27 @@ html {
     line-height: 50px;
     transition: .3s;
   }
+  .nav__link{
+    transition: .3s;
+  }
+  #italic {
+    font-style: italic ;
+  }
+ #b{
+  background: rgb(204, 172, 172);
+  padding: 15px 20px ;
+  border: 5px dotted rgb(240, 149, 149) ;
+  margin-right: 800px ;
+  line-height: 20px;
+ } 
+ .container {
+  max-width: 1440px;
+  margin: 0 auto;
+ }
+ .main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section {
+  width: 50%;
+}
