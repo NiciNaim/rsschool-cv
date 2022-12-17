@@ -25,16 +25,16 @@
      </header>
 
      <main class="main-container">
-        <img class="image" src="assets/img/photo.jpg" alt="my photo">
         <section class="section" id="name">
           <h1>Жулмурзина Анна</h1>
+          <img class="image" src="assets/img/photo.jpg" alt="my photo">
         </section>
         <section class="section" id="rezume">
         <h2 id="a">Коротко о себе</h2>
             <p id="italic"> Меня зовут Анна, я прохожу курс обучения на RS shool.</p>
-            <p id="italic"> Целеустремленность, усидчивость и добросовестность/.</p>
+            <p id="italic"> Целеустремленность, усидчивость и добросовестность.</p>
         </section>
-            <section class="section" id="b"> 
+        <section class="section" id="b"> 
            <h2> Контакты </h2>
             <ul> 
                 <li>Телеграмм @NiciNaim</li>
@@ -52,17 +52,17 @@
         </section>
         <section class="section" id="code">
           <h2 id="d">Пример кода</h2>
-             <code>
+             <code >
               <p>function duckDuckGoose(players, goose) {</p>
               <p>   let index = goose % players.length - 1;</p>
-              <p>  if (index < 0) return players[players.length - 1].name;</p>
+              <p>  if (index  0) return players[players.length - 1].name;</p>
               <p>  return players[index].name;</p>
             }
             </code>
         </section>
         <section class="section" id="work">
           <h2 id="i">Перечень выполненых работ</h2>
-            <a href="https://github.com/NiciNaim/rsschool-cv/commit/24be91713989e9f3fa121aa9525153eebafcd1a2">Markdown & Git</a>
+            <a href="https://github.com/NiciNaim/rsschool-cv/commit/24be91713989e9f3fa121aa9525153eebafcd1a2" class="git">Markdown & Git</a>
         </section>
         <section class="section" id="obr">
            <h2 id="f">Образование</h2>
@@ -73,8 +73,12 @@
             </ol>
         </section>
     </main>
-    <footer>
-        footer        
+    <footer class="footer">
+        <a href="https://github.com/NiciNaim" class="git">NiciNaim</a> 
+        <span> 2022 год</span> 
+        
+        <img src="/logo.svg" alt="Логотип"> <!-- https://rs.school/images/rs_school_js.svg -->
+             
     </footer>
     </div>
  </body>
