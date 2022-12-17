@@ -75,3 +75,10 @@ html {
   padding: 2rem 0;
   
 }
+.logo{
+  width: 100px;
+  height: auto;
+  display: flex;
+  padding-top: 2rem;
+  padding-left: 10px;
+}
