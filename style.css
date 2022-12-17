@@ -39,7 +39,7 @@ html {
   .nav__link{
     transition: .3s;
   }
-  #italic {
+  .italic {
     font-style: italic ;
   }
  #b{
@@ -73,12 +73,11 @@ html {
 .footer{
   background-color: rgb(223, 196, 196);
   padding: 2rem 0;
-  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .logo{
   width: 100px;
   height: auto;
-  display: flex;
-  padding-top: 2rem;
-  padding-left: 10px;
 }
