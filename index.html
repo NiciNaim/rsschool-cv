@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>cv</title>
+</head>
+
+<body>
+    <div class="container">
+     <header class="header">
+        <nav>
+            <ul class="number">
+                <li class="nav__menu"><a href="#rezume" class="nav__link">Коротко о себе</a></li>
+                <li class="nav__menu"><a href="#b" class="nav__link" >Контакты</a></li>
+                <li class="nav__menu"><a href="#my" class="nav__link">Мои навыки</a></li>
+                <li class="nav__menu"><a href="#code" class="nav__link">Пример кода</a></li>
+                <li class="nav__menu"><a href="#work" class="nav__link">Перечень выполненых работ</a></li>
+                <li class="nav__menu"><a href="#obr" class="nav__link">Образование</a></li>
+            </ul>
+        </nav>
+     </header>
+
+     <main class="main-container">
+        <section class="section" id="name">
+          <h1>Жулмурзина Анна</h1>
+          <img class="image" src="assets/img/photo.jpg" alt="my photo">
+        </section>
+        <section class="section" id="rezume">
+        <h2>Коротко о себе</h2>
+            <p class="italic"> Меня зовут Анна, я прохожу курс обучения на RS shool.</p>
+            <p class="italic"> Целеустремленность, усидчивость и добросовестность.</p>
+        </section>
+        <section class="section" id="b"> 
+           <h2> Контакты </h2>
+            <ul> 
+                <li>Телеграмм @NiciNaim</li>
+                <li> Эл. почта annazhulmrzina@gmail.com</li>
+            </ul>
+        </section>
+        <section class="section" id="my">
+          <h2>Мои навыки</h2>
+                <ol>
+                    <li>Вождение космического корабля</li>
+                    <li>Github</li>
+                    <li>HTML(Hypertext Markup Language)</li>
+                    <li>CSS(Cascading Style Sheets)</li>
+                </ol>
+        </section>
+        <section class="section" id="code">
+          <h2>Пример кода</h2>
+          <pre>
+             <code >
+              function duckDuckGoose(players, goose) {
+                let index = goose % players.length - 1;
+               if (index  0) return players[players.length - 1].name;
+                return players[index].name;
+            }
+            </code>
+          </pre>
+        </section>
+        <section class="section" id="work">
+          <h2>Перечень выполненых работ</h2>
+            <a href="https://github.com/NiciNaim/rsschool-cv/commit/24be91713989e9f3fa121aa9525153eebafcd1a2" class="git">Markdown & Git</a>
+        </section>
+        <section class="section" id="obr">
+           <h2>Образование</h2>
+             <ol>
+               <li>Среднее специальное, медицинская сестра</li>
+               <li>Специалист по массажу</li>
+               <li>Уровень анг. языка А1</li>
+            </ol>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/NiciNaim" class="git">NiciNaim</a> 
+        <span> 2022 год</span> 
+        <a href="https://rs.school/js/"><img class="logo" src="assets/img/rs_school_js.svg" alt="Логотип"><!-- https://rs.school/images/rs_school_js.svg --> </a>
+    </footer>
+    </div>
+ </body>
+</html>
